@@ -1,7 +1,7 @@
 {
   "name": "gmaps-route-scraper-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +12,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.2",
-    "gmaps-route-scraper": "^1.0.0"
+    "gmaps-route-scraper": "^1.0.0",
+    "puppeteer": "^24.3.0"
   }
 }
